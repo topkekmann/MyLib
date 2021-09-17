@@ -7,5 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Test"
-include ':app'
+//include ':app'
 include ':mytestlib'
