@@ -3,6 +3,14 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+
+//        allprojects {
+//            repositories {
+
+                maven { url 'https://jitpack.io' }
+//            }
+//        }
+
 //        maven {
 //
 ////            https://gitlab.indofungames.com/api/v4/projects/42/packages/maven
