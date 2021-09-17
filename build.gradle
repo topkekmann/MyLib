@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+//        maven {
+//
+////            https://gitlab.indofungames.com/api/v4/projects/42/packages/maven
+//            url "https://gitlab.indofungames.com/api/v4/projects/45/packages/maven"
+//            name "Indofun"
+//            credentials(HttpHeaderCredentials) {
+//                name = 'Private-Token'
+//                value = '5PdRjE3ra5esYsqSKsku'
+//            }
+//            authentication {
+//                header(HttpHeaderAuthentication)
+//            }
+//        }
+    }
+
+//    plugins {
+////        id 'maven-publish'
+//    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.2"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
