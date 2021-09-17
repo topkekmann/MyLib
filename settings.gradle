@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Test"
+rootProject.name = "My Application"
 //include ':app'
-include ':mytestlib'
+include ':myapplication'
